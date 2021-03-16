@@ -48,3 +48,25 @@ setInterval(function () {
  *  2. || - Or
  *  3. ! - Not
  */
+
+/**
+ * Kiểu dữ liệu trong JS
+ * 
+ *  1. Dữ liệu nguyên thủy - Primative Data
+ *      - Number
+ *      - String
+ *      - Boolean
+ *      - undefined
+ *      - Null
+ *      - Symbol
+ * 
+ *  2. Dữ liệu phức tạp - Complex Data
+ *      - Function
+ *      - Object
+ */
+
+/**
+ * Toán tử só sánh P2 => So sánh cả value và Data type
+ *  1. ===
+ *  2. !==
+ */
