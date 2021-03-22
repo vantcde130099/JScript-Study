@@ -1,19 +1,3 @@
-var fullName = 'Tran Cong Van';
-var age = 22;
-
-alert(fullName);
-alert(age);
-
-confirm('Xac nhan');
-prompt('Xac nhan');
-
-setTimeout(function() {
-    alert('thong bao');
-}, 1000);   //1000ms
-
-setInterval(function () {
-   console.log("dem ne " + Math.random()); 
-}, 1000);
 /**
  * Giới thiệu 1 số hàm built-in
  *  1.Alert
@@ -70,3 +54,20 @@ setInterval(function () {
  *  1. ===
  *  2. !==
  */
+
+/**
+ * Arguments
+ * 
+ */
+
+/**
+ * Array method
+ *  1. forEach()
+ *  2. every()
+ *  3. some()
+ *  4. find()
+ *  5. filter()
+ *  6. map()
+ *  7. reduce()
+ */
+
