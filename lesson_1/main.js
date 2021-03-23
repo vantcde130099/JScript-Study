@@ -71,3 +71,21 @@
  *  7. reduce()
  */
 
+/**
+ * Math object
+ *  1/ Math.PI
+ *  2/ Math.round() //lam tron
+ *  3/ Math.abs()   //gia tri tuyet doi
+ *  4/ Math.ceil()  //lam tron tren
+ *  5/ Math.floor() //lam tron duoi
+ *  6/ Math.random()
+ *  7/ Math.min()
+ *  8/ Math.max()
+ */
+
+/**
+ * Callback
+ *  1. Là hàm
+ *  2. Được truyền qua đối số
+ *  3. Được gọi lại (Trong hàm nhận đối số)
+ */ 
