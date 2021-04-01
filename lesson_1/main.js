@@ -89,3 +89,60 @@
  *  2. Được truyền qua đối số
  *  3. Được gọi lại (Trong hàm nhận đối số)
  */ 
+
+var courses = ['Javascript', 'NodeJs', 'ReactJs'];
+
+//forEach2()
+Array.prototype.forEach2 = function(callback){
+	var arrayLength = this.length;
+  for(let i in this){
+  	callback(this[i]);
+  }
+}
+courses.forEach2(function(course){
+	return console.log(course);;
+});
+
+//filter2()
+Array.prototype.filter2 = function (callback) {
+    var result = [];
+    for(let i of this){ 
+        if(callback(i)){
+            result.push(i);
+        }
+    }
+    return result;
+}
+var newCourse = courses.filter2(function (course) {
+    return course.length > 6;
+});
+console.log(newCourse);
+
+//some();
+Array.prototype.some2 = function (callback) {
+    for(let i of this){
+        if(callback(i))
+            return true;
+    }
+    return false;
+}
+
+var checkString = courses.some2(function (course) {
+    return typeof course === 'string';
+});
+console.log(checkString);
+
+//every()
+Array.prototype.every2 = function (callback) {
+    for(let i of this){
+        if(!callback(i))
+            return false;
+    }
+    return true;
+}
+
+var checkEveryString = courses.every2(function (course) {
+    return typeof course === 'string';
+});
+
+console.log(checkEveryString);
