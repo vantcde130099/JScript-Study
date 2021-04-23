@@ -1,19 +1,19 @@
-var fullName = 'Tran Cong Van';
-var age = 22;
+// var fullName = 'Tran Cong Van';
+// var age = 22;
 
-alert(fullName);
-alert(age);
+// alert(fullName);
+// alert(age);
 
-confirm('Xac nhan');
-prompt('Xac nhan');
+// confirm('Xac nhan');
+// prompt('Xac nhan');
 
-setTimeout(function() {
-    alert('thong bao');
-}, 1000);   //1000ms
+// setTimeout(function() {
+//     alert('thong bao');
+// }, 1000);   //1000ms
 
-setInterval(function () {
-   console.log("dem ne " + Math.random()); 
-}, 1000);
+// setInterval(function () {
+//    console.log("dem ne " + Math.random()); 
+// }, 1000);
 /**
  * Giới thiệu 1 số hàm built-in
  *  1.Alert
@@ -70,3 +70,10 @@ setInterval(function () {
  *  1. ===
  *  2. !==
  */
+
+
+ var h1Element  = document.getElementsByTagName('h1');
+var h1TagName = h1Element.tagName;
+var h1NextElementSibling = h1Element.nextElementSibling;
+console.log(h1TagName);
+console.log(h1NextElementSibling);

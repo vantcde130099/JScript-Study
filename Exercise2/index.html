@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+</head>
+<body>
+    <p id ='text'>JavaScript Exercises - w3resource</p> 
+<div>
+<button id="jsstyle" onclick="js_style()">Style</button>
+
+
+<form id="form1" onsubmit="getFormvalue()">
+    First name: <input type="text" id="fname" value="David"><br>
+    Last name: <input type="text" id="lname" value="Beckham"><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p><a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://www.w3resource.com/">w3resource</a></p>
+<button onclick="getAttributes()">Click here to get  attributes value</button>
+
+<table id="sampleTable" border="1">
+    <tr><td>Row1 cell1</td>
+    <td>Row1 cell2</td></tr>
+    <tr><td>Row2 cell1</td>
+    <td>Row2 cell2</td></tr>
+    </table><br>
+    <input type="button" onclick="insert_Row()" value="Insert row">
+
+    <table id="myTable" border="1">
+        <tr><td>Row1 cell1</td>
+        <td>Row1 cell2</td></tr>
+        <tr><td>Row2 cell1</td>
+        <td>Row2 cell2</td></tr>
+        <tr><td>Row3 cell1</td>
+        <td>Row3 cell2</td></tr>
+        </table><form>
+        <input type="button" onclick="changeContent()" value="Change content">
+        </form>
+
+
+        <table id="myTable" border="1">
+        </table><form>
+        <input type="button" onclick="createTable()" value="Create the table">
+
+        <form>
+            <select id="colorSelect">
+            <option>Red</option>
+            <option>Green</option>
+            <option>White</option>
+            <option>Black</option>
+            </select>
+            <input type="button" onclick="removecolor()" value="Select and Remove">
+        
+            <form>
+                Select your favorite Color :
+                <select id="mySelect">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>White</option>
+                </select>
+                <input type="button" onclick="getOptions()" value="Count and Output all items">
+<script src="app.js"></script>
+</body>
+</html>
