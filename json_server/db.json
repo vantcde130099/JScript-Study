@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "typicode",
+      "title": "json-server"
+    },
+    {
+      "title": "an em nhieu len nuadi",
+      "author": "chau",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "author": "van",
+      "title": "di uong cf"
+    },
+    {
+      "author": "nam",
+      "title": "trello",
+      "id": 5
+    },
+    {
+      "author": "asdas",
+      "title": "123",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "van tr"
+  }
+}
